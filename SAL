@@ -1,0 +1,7 @@
+i=input("Enter your Name : ")
+
+for i in range (1,101):
+  if (i % 2 == 0) and ( i % 2 != 0) :
+    print("work for 24hr & SAL : $20")
+  else:
+    print("work for 12hr & SAL : $10")
